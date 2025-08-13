@@ -1,0 +1,404 @@
+
+.body{
+    font-family:poppins, sans-serif;
+}
+
+
+
+.month{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../DAJI/Pink_287274bc-b25e-4f12-9ed3-7e9a15ecd196.webp);
+    background-size: 50%;
+    object-fit: cover;
+
+
+
+}.month header{
+
+    height: 20vh;
+    width: 100%;
+   
+
+
+}
+header{
+    height: 20vh;
+    width: 100%;
+   
+
+
+}
+header nav a{
+    color:red;
+    text-decoration: none;
+    font-size: 2rem;
+    padding-left: 30px;
+    font-weight: 500;
+   font-family: poppins, sans-serif;
+
+
+
+}
+nav a span{
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+}
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: none;
+
+    
+    
+
+
+
+
+}ul li{
+  padding: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  
+
+ 
+}
+
+
+nav ul li  a{
+    color: rgb(234, 236, 235);
+    transition: 0.8s;
+}
+
+
+nav ul li  :hover{
+    color: black;
+    
+
+
+
+}
+
+
+
+
+li{
+    padding-left: 40pxpx;
+    list-style: none;
+
+}
+
+
+
+
+
+.god{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right , rgb(0, 187, 255),rgb(232, 206, 9));
+
+
+
+}
+.god h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+
+
+}
+.item{
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.aook img{
+    height: 60vh;
+    border-radius: 20px;
+    transition: 0.8s;
+
+
+}
+.aook img:hover{
+
+ transform: scale(.9);
+
+
+}
+
+
+.aook h1{
+    font-size: 30px;
+
+
+}
+.aook h1 span{
+    
+    color: rgb(12, 19, 14);
+
+}
+
+
+
+.book img{
+    height: 60vh;
+    border-radius: 20px;
+    transition: 0.8s;
+
+
+}
+.book img:hover{
+
+ transform: scale(.9);
+
+
+}
+
+
+
+
+
+.book h1{
+    font-size: 30px;
+}
+
+.book h1 span{
+    
+    color: rgb(3, 9, 5);
+
+}
+
+
+
+
+.eook img{
+    height: 60vh;
+    border-radius: 20px;
+    transition: 0.8s;
+
+
+
+}
+.eook img:hover{
+
+ transform: scale(.9);
+
+
+}
+
+
+.eook h1{
+    font-size: 30px;
+
+}
+.eook h1 span{
+    
+    color: rgb(5, 6, 6);
+
+}
+
+
+
+.fook img{
+    height: 60vh;
+    border-radius: 20px;
+    transition: 0.8s;
+
+
+
+}
+.fook img:hover{
+
+ transform: scale(.9);
+
+
+}
+
+.fook h1{
+    font-size: 30px;
+}
+
+
+.fook h1 span{
+    
+    color: rgb(3, 5, 4);
+
+}
+/*  */
+
+
+ .container3{
+height: 105vh;
+
+background-color:rgb(158, 195, 162);
+
+
+ }
+ .container3 h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    padding-left: 20px;
+    
+ }
+ .container3 p{
+    font-weight: 900;
+   padding-left: 50px;
+    font-size: 1.5em;
+    
+
+ }.case {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      font-size: 15px;
+
+ }
+ .case h2.sugu{
+    border: 2px solid;
+    padding: 20px;
+    margin: 30px;
+    transition: 0.8s;
+    border-radius: 20PX;
+
+
+ }
+
+ .case h2:hover{
+
+    color:white;
+
+ }
+
+
+
+ .case h2.tugu{
+      border: 2px solid;
+    padding: 20px;
+    margin: 30px;
+    transition: 0.8s;
+    border-radius: 20PX;
+
+
+
+ }
+ .case h2.fugu{
+      border: 2px solid;
+    padding: 20px;
+    margin: 30px;
+    transition: 0.8s;
+    border-radius: 20PX;
+
+
+
+
+
+ }
+ .case h2.vugu{
+      border: 2px solid;
+    padding: 20px;
+    margin: 30px;
+    transition: 0.8s;
+    border-radius: 20PX;
+
+ }
+ 
+ .main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  
+
+}
+
+ .prabu h1{
+    color: black;
+    font-size: 30px;
+    padding-right: 30PX;
+  
+
+
+ }
+ .prabu li{
+
+    padding: 10PX;
+    font-weight: 300;
+
+ 
+
+ }
+
+ .dhar h1{
+    
+    color: black;
+    font-size: 30px;
+  
+
+ }
+ .dhar li{
+
+    
+    padding: 10PX;
+    font-weight: 300;
+
+
+ }
+ .hari h1{
+ 
+   
+     color: black;
+    font-size: 30px;
+
+ }
+.hari li{
+     
+      padding: 10PX;
+    font-weight: 300;
+
+
+}.hari{
+    margin-bottom:70px
+
+}.dhar{
+
+
+
+    margin-bottom: 30px;
+}
+.vijay h1{
+
+   color: yellow;
+   font-size: 50px;
+   font-weight: 900 ;
+
+   padding-bottom: 10%;
+
+}
+
+
+/* ______________________three_______________________ */
+ 

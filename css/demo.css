@@ -1,0 +1,427 @@
+
+
+.body{
+    font-family:poppins, sans-serif;
+}
+
+
+
+.show{
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+
+
+
+}.show header{
+
+    height: 20vh;
+    width: 100%;
+   
+
+
+}
+header{
+    height: 20vh;
+    width: 100%;
+   
+
+
+}
+header nav a{
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 2rem;
+    padding-left: 30px;
+    font-weight: 500;
+     font-family: poppins, sans-serif;
+
+
+
+}
+nav a span{
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: none;
+
+    
+    
+
+
+
+
+}ul li{
+  padding: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  
+
+ 
+}
+
+
+nav ul li  a{
+    color: rgb(234, 236, 235);
+    transition: 0.8s;
+}
+
+
+nav ul li  :hover{
+    color: black;
+    
+
+
+
+}
+
+
+
+
+li{
+    padding-left: 40pxpx;
+    list-style: none;
+
+}
+
+
+/* first */
+
+
+.common{
+    border: 2px solid;
+     width: 50%;
+     height: 65vh;
+     justify-content: center;
+     align-items: center;
+     margin-left: 25%;
+     background-color: white;
+
+
+
+
+}
+
+
+.demo h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 15px;
+    margin-top: 20PX;
+
+
+
+
+}
+.demo2 button{
+   margin-right: 3px;
+   color: black;
+   font-size: 2rem;
+   background-color: rgb(31, 56, 31);
+   transition: 0.8S;
+
+}
+.demo2 button :hover{
+
+    background-color: white;
+
+
+}
+
+
+
+.demo3 BUTTON{
+    
+   
+   color: black;
+   font-size: 2rem;
+  
+
+
+   
+
+
+}
+.demoall{
+    display: flex;
+    margin-left: 30%;
+  
+
+}
+.common2{
+     width: 60%;
+     height: 41vh;
+    border: 1px solid;
+    margin-left: 20%;
+    margin-top: 30px;
+    background-color: gray;
+
+}
+.ship{
+    display: flex;
+    justify-content: space-around;
+
+    
+
+}
+
+
+.demo4 button{
+
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  border-radius: 10PX;
+  border: none;
+  transition: 0.8s; 
+
+
+
+} 
+.demo4 button:hover{ 
+    background-color: wheat;
+
+} 
+
+
+.demo5 button{
+
+    margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  border-radius: 10PX;
+  border: none;
+  transition: 0.8s; 
+ 
+
+}
+.demo5 button:hover{ 
+    background-color: wheat;
+
+} 
+.dai h5{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.dai p{
+    width: 80%;
+    height: 30px;
+    margin-left: 41px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding:6px;
+    background-color: white;
+
+
+}
+.dai button{
+
+     width: 80%;
+    height: 30px;
+    margin-left: 44px;
+    border-radius: 10px;
+    padding:6px;
+    background-color:red;
+    
+
+}
+.dai h6{
+     margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+
+
+}
+
+.dai h6 span{
+    color: rgb(195, 87, 87);
+    font-weight: 100;
+    border-bottom: 1px solid;
+}
+
+
+/* finally */
+
+
+ .from{
+height: 105vh;
+
+background-color:rgb(158, 195, 162);
+
+
+ }
+ .from h1{
+    color:white;
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding: 10px;
+    
+ }
+ .from p{
+    font-weight: 900;
+   padding-left: 20px;
+    font-size: 1.5em;
+    
+
+ }.case {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+
+ }
+ .case h2.sugu{
+    border: 2px solid;
+    padding: 20px;
+    margin: 30px;
+    transition: 0.8s;
+    border-radius: 20PX;
+
+
+ }
+
+ .case h2:hover{
+
+    color:white;
+
+ }
+
+
+
+ .case h2.tugu{
+      border: 2px solid;
+    padding: 20px;
+    margin: 30px;
+    transition: 0.8s;
+    border-radius: 20PX;
+
+
+
+ }
+ .case h2.fugu{
+      border: 2px solid;
+    padding: 20px;
+    margin: 30px;
+    transition: 0.8s;
+    border-radius: 20PX;
+
+
+
+
+
+ }
+ .case h2.vugu{
+      border: 2px solid;
+    padding: 20px;
+    margin: 30px;
+    transition: 0.8s;
+    border-radius: 20PX;
+
+ }
+ 
+ .main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  
+
+}
+
+ .prabu h1{
+    color: black;
+    font-size: 30px;
+    padding-right: 30PX;
+  
+
+
+ }
+ .prabu li{
+
+    padding: 10PX;
+    font-weight: 300;
+
+ 
+
+ }
+
+ .dhar h1{
+    
+    color: black;
+    font-size: 30px;
+  
+
+ }
+ .dhar li{
+
+    
+    padding: 10PX;
+    font-weight: 300;
+
+
+ }
+ .hari h1{
+ 
+   
+     color: black;
+    font-size: 30px;
+
+ }
+.hari li{
+     
+      padding: 10PX;
+    font-weight: 300;
+
+
+}.hari{
+    margin-bottom:70px
+
+}.dhar{
+
+
+
+    margin-bottom: 30px;
+}
+.vijay h1{
+
+   color: yellow;
+   font-size: 50px;
+   font-weight: 900 ;
+
+   padding-bottom: 10%;
+
+}
+
+
+/* ______________________three_______________________ */
+ 
+
