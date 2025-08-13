@@ -1,0 +1,405 @@
+
+ 
+
+.body{
+    font-family:poppins, sans-serif;
+}
+
+
+.jony{
+    height: 150vh;
+    background-color: orange;
+
+
+
+    
+
+}.jony header{
+
+    height: 20vh;
+    width: 100%;
+   
+
+
+}
+header{
+    height: 20vh;
+    width: 100%;
+   
+
+
+}
+header nav a{
+    color:blueviolet;
+    text-decoration: none;
+    font-size: 2rem;
+    padding-left: 40px;
+    font-weight: 500;
+   font-family: poppins, sans-serif;
+
+
+
+}
+nav a span{
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+}
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: none;
+
+    
+    
+
+
+
+
+}ul li{
+  padding: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  
+
+ 
+}
+
+
+nav ul li  a{
+    color: rgb(234, 236, 235);
+    transition: 0.8s;
+}
+
+
+nav ul li  :hover{
+    color: black;
+    
+
+
+
+}
+
+
+
+
+li{
+    padding-left: 40pxpx;
+    list-style: none;
+
+}
+
+
+
+/* ________________first______________ */
+
+
+.alling{
+
+    display: flex;
+    
+}
+
+
+
+.vari{
+
+display: flex;
+padding-bottom: 30px;
+
+}
+
+
+
+
+
+
+.sori img{
+ height: 60vh;
+padding-left: 30px;
+
+
+}
+
+.xori img{
+ height: 60vh;
+padding-left: 30px;
+
+
+}
+
+
+
+.vacm{
+    display: flex;
+
+
+
+}
+
+
+.yori img{
+ height: 60vh;
+padding-left: 30px;
+
+
+}
+
+
+.zori img{
+ height: 60vh;
+padding-left: 30px;
+
+
+}
+.comp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}.company .comp h1{
+    margin-bottom: 0px;
+    padding-left: 60px;
+    font-size: 2em;
+
+
+}
+.bomp p{
+    color: gray;
+    padding-left: 60px;
+    font-size: 1.5em;
+
+
+}
+.mony p{
+    padding-left: 60px;
+    font-size: 2rem;
+    font-weight: 900;
+
+
+
+}
+.mony p span.va{
+    color: red;
+
+
+
+}.mony p span .po{
+    color: aquamarine;
+
+
+    font: line;
+}
+.boo h1{
+
+    padding-left: 60px;
+
+}
+
+/* kjfjhfhfoh */
+
+.friut{
+ display: flex;
+ justify-content: space-between;
+ padding-left: 60px;
+
+  
+}
+
+
+
+.apple img{
+
+     height: 100px;
+     box-sizing: border-box;
+     border-radius: 10px;
+    margin-right: 30px;
+     
+
+}
+
+
+
+
+
+.orange img{
+
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-right: 30px;
+     
+}
+
+.cherry img{
+
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-right: 30px;
+     
+}
+
+.banana img{
+
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-right: 30px;
+     
+}
+.heart h1{
+    color: gray;
+    padding-left: 60px;
+    font-size: 39px;
+    
+
+}
+
+
+
+.broken ul button{
+
+    font-size: 20px;
+    padding: 20px;
+    margin: 2px;
+
+
+}
+.bh p{
+
+    font-size: 2em;
+    padding-left: 50px;
+
+
+}
+.bh p span{
+    margin-left: 10px;
+    border: 1px solid;
+
+
+
+}
+.vikram button{
+
+    color: white;
+    margin-left:60px ;
+    padding: 20px;
+    margin: 40px;
+    width: 230px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+ 
+
+
+}
+.vikram button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+.balla{
+
+    display: flex;
+}
+
+
+.naveen button{
+     color: green;
+    margin-left:60px ;
+    padding: 20px;
+    margin: 40px;
+    width: 230px;
+    background-color:white;
+    border: none;
+    border-radius: 10px;
+
+
+
+}
+
+.naveen button:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.final h1{
+
+     font-weight: 400;
+     padding-left:50px;
+
+
+
+}
+.karthi p{
+    font-size: 1rem;
+    
+    margin-left: 40px;
+    padding-left: 20px;
+
+    
+  
+
+}
+
+.sukumar{
+    box-sizing: border-box;
+    border: 1px solid;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-left: 30px;
+   
+
+    
+}
+
+
+.su button{
+    
+    margin-right: 40px;
+    padding: 10px;
+    border: none ;
+    background-color: orange;
+
+
+}
+.su button :hover{
+    
+    background-color: chocolate;
+    color: crimson;
+     
+
+
+}
+
+
+
+
+
+

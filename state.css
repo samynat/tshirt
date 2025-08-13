@@ -1,0 +1,238 @@
+
+:root {
+  --primary-color: #1d1d1d;
+  --accent-color: #ff4500;
+  --bg-light: #f9f9f9;
+  --gap: 1rem;
+  --border-radius: 8px;
+  --transition-speed: 0.3s;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--primary-color);
+}
+
+.tokke{
+    height: 100vh;
+    background-image: url(./1730020250808132553.avif);
+    background-size: cover;
+    background-size: 100%;
+    
+
+
+}.tokke header{
+
+    height: 20vh;
+    width: 100%;
+   
+
+
+}
+header{
+    height: 20vh;
+    width: 100%;
+   
+
+
+}
+header nav a{
+    color:red;
+    text-decoration: none;
+    font-size: 2rem;
+    padding-left: 30px;
+    font-weight: 500;
+    font-family: poppins, sans-serif;
+
+
+
+}
+nav a span{
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+}
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: none;
+
+    
+    
+
+
+
+
+}ul li{
+  padding: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  
+
+ 
+
+
+
+}
+
+
+nav ul li  a{
+    color: rgb(234, 236, 235);
+    transition: 0.8s;
+}
+
+
+nav ul li  :hover{
+    color: black;
+    
+
+
+
+}
+
+
+
+
+li{
+    padding-left: 40pxpx;
+    list-style: none;
+
+}
+
+
+
+.all {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--gap);
+  padding: var(--gap);
+}
+.all{
+
+    gap: 100px;
+    justify-content: space-between;
+
+
+
+}
+
+
+
+
+
+.all .took,
+.all .look,
+.all .cook,
+.all .dook {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  text-align: center;
+  transition: transform var(--transition-speed);
+  
+}
+
+.all div:hover {
+  transform: scale(1.03);
+}
+
+.all img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Price display */
+.all h1 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.all h1 span {
+  color: var(--accent-color);
+  margin-left: 0.5rem;
+}
+
+/* 4. Details Section (Footer-like) */
+.details {
+  padding: var(--gap);
+  background: white;
+}
+
+.details .case,
+.details .main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.details .case h2 {
+  flex: 1 1 auto;
+  cursor: pointer;
+}
+
+/* Link lists */
+.details .prabu,
+.details .dhar,
+.details .hari {
+  flex: 1 1 200px;
+}
+
+.details{
+   
+    background-color: grey;
+    
+}
+
+.details li {
+
+  list-style: none;
+  padding-left: 20%;
+  margin: 0.3rem 0;
+}
+
+/* Marquee Replacement (Consider Accessibility) */
+.vijay h1 {
+  font-size: 1.5rem;
+  color: var(--accent-color);
+  margin-top: var(--gap);
+  text-align: center;
+  padding-left: 20%;
+}
+
+/* 5. Responsive Enhancements */
+@media (min-width: 600px) {
+  .all {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  header nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+}

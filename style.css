@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family:poppins, sans-serif;
+
+}
+
+
+
+
+
+.container{
+    height: 100vh;
+    background-image: url(./pexels-daiangan-102129.jpg);
+    background-size: cover;
+    
+
+
+}.container header{
+
+    height: 20vh;
+    width: 100%;
+   
+
+
+}
+header{
+    height: 20vh;
+    width: 100%;
+   
+
+
+}
+header nav a{
+    color:red;
+    text-decoration: none;
+    font-size: 2rem;
+    padding-left: 30px;
+    font-weight: 500;
+    font-family: poppins, sans-serif;
+
+
+
+}
+nav a span{
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+}
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: none;
+
+    
+    
+
+
+
+
+}ul li{
+  padding: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  
+
+ 
+
+
+
+}
+
+
+nav ul li  a{
+    color: rgb(234, 236, 235);
+    transition: 0.8s;
+}
+
+
+nav ul li  :hover{
+    color: black;
+    
+
+
+
+}
+
+
+
+
+li{
+    padding-left: 40pxpx;
+    list-style: none;
+
+
+
+}
+.sam{
+    padding-left: 10%;
+    margin-top: 80px;
+
+
+}
+.sam p{
+    
+    text-decoration: underline;
+    font-size: 20px;
+color: rgb(17, 11, 1);
+
+}
+
+
+
+.sam h4{
+    color: white;
+    font-size: 3rem;
+    padding: 10px;
+
+}
+h4 span {
+    color:rgb(0, 255, 17);
+
+
+    /* __________________________first____________________________ */
+
+}
+.container2{
+    height: 100vh;
+    width: 100%;
+
+
+}
+.container2 h1{
+    
+    padding: 40PX;
+
+}
+.su{
+
+   
+    width: 100px;
+    width: 100%;
+    padding-left: 30px;
+
+}
+.su button{
+    height: 7vh;
+    width: 15%;
+    border-radius: 20px;
+
+
+
+}
+.su p{
+    padding: 10PX;
+    font-size: 1.5em;
+
+
+
+}
+.sugan{
+   flex-direction: column;
+    font-size: 1.7rem;
+    align-items: center;
+
+    
+
+}
+.sugan li{
+    list-style: none;
+    text-decoration: none;
+    padding: 20px;
+    list-style: none;
+
+
+
+}
+.sugan li a{
+    color: black;
+    text-decoration: none;
+
+
+}
+.sugan img{
+    height: 80vh;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.kiss{
+    display: flex;
+
+}
+.list1 h1{
+    font-size: 30px;
+    padding-top:10px   ;
+    padding-right: 20px;
+      
+
+}
+.list1 h1 span{
+ color: green;
+
+}
+
+
+
+
+.list1 p{
+    font-size: 20px;
+    padding-left: 20px;
+
+
+}
+.list2 h1{
+      font-size: 30px;
+    padding-top:10px   ;
+    padding-right: 20px;
+    
+
+}
+.list2 h1 span{
+ color: green;
+
+
+}
+
+
+
+
+.list2 p{
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+
+
+.list3 h1{
+
+    font-size: 30px;
+    padding-top:10px   ;
+    padding-right: 20px;
+      
+
+}
+.list3 h1 span{
+ color: green;
+
+
+}
+
+
+.list3 p{
+    font-size: 20px;
+    padding-left: 30px;
+ }
+
+
+
+/*____________________ second_______________________ */
+
+
+ .container3{
+height: 105vh;
+
+background-color:rgb(158, 195, 162);
+
+
+ }
+ .container3 h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    
+ }
+ .container3 p{
+    font-weight: 900;
+   padding-left: 50px;
+    font-size: 1.5em;
+    
+
+ }.case {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9em;
+
+ }
+ .case h2.sugu{
+    border: 2px solid;
+    padding: 20px;
+    margin: 30px;
+    transition: 0.8s;
+    border-radius: 20PX;
+
+
+ }
+
+ .case h2:hover{
+
+    color:white;
+
+ }
+
+
+
+ .case h2.tugu{
+      border: 2px solid;
+    padding: 20px;
+    margin: 30px;
+    transition: 0.8s;
+    border-radius: 20PX;
+
+
+
+ }
+ .case h2.fugu{
+      border: 2px solid;
+    padding: 20px;
+    margin: 30px;
+    transition: 0.8s;
+    border-radius: 20PX;
+
+
+
+
+
+ }
+ .case h2.vugu{
+      border: 2px solid;
+    padding: 20px;
+    margin: 30px;
+    transition: 0.8s;
+    border-radius: 20PX;
+
+ }
+ 
+ .main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  
+
+}
+
+ .prabu h1{
+    color: black;
+    font-size: 30px;
+    padding-right: 30PX;
+  
+
+
+ }
+ .prabu li{
+
+    padding: 10PX;
+    font-weight: 300;
+
+ 
+
+ }
+
+ .dhar h1{
+    
+    color: black;
+    font-size: 30px;
+  
+
+ }
+ .dhar li{
+
+    
+    padding: 10PX;
+    font-weight: 300;
+
+
+ }
+ .hari h1{
+ 
+   
+     color: black;
+    font-size: 30px;
+
+ }
+.hari li{
+     
+      padding: 10PX;
+    font-weight: 300;
+
+
+}.hari{
+    margin-bottom:70px
+
+}.dhar{
+
+
+
+    margin-bottom: 30px;
+}
+.vijay h1{
+
+   color: yellow;
+   font-size: 50px;
+   font-weight: 900 ;
+
+   padding-bottom: 10%;
+
+}
+
+
+/* ______________________three_______________________ */
+ 
+
+.tank{
+    height: 100vh;
+    width: 100%;
+    
+
+
+}
+.tank2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+
+.tom img{
+    height: 60vh;
+    border-radius: 10px;
+    transition: 0.8s;
+    
+    
+
+}
+.tom img:hover{
+
+
+ transform: scale(.9);
+
+
+
+
+
+
+}
+
+
+
+
+.tom h1{
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20x;
+    
+
+
+}
+.tom h1 span{
+
+    color: rgb(31, 92, 18);
+
+
+}
+.jorry img{
+    height: 60vh;
+    border-radius: 10px;
+    transition: 0.8s;
+    
+
+}.jorry img:hover{
+
+ transform: scale(.9);
+
+
+}
+
+
+
+
+.jorry h1 span{
+
+color: rgb(31, 92, 18);
+
+
+}
+.dog img{
+
+    height: 60vh;
+    border-radius: 10px;
+    transition: 0.8s;
+
+}.dog img:hover{
+
+ transform: scale(.9);
+
+
+}
+
+
+
+.dog h1 span{
+
+ color: rgb(31, 92, 18);
+
+
+}
+
+
+
+
+
+.cat img{
+
+    height: 60vh;
+    border-radius: 10px;
+    transition: 0.8s;
+
+
+}
+.cat img:hover{
+
+ transform: scale(.9);
+
+
+}
+.cat h1 span{
+
+ color: rgb(31, 92, 18);
+
+
+}
+/*____________ four____________ */
+ 
+
+
